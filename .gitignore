@@ -30,3 +30,6 @@ logs/
 
 # ENVs
 .env
+
+# DB
+db

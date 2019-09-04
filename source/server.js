@@ -1,6 +1,7 @@
 // Core
 import express from 'express';
 import bodyParser from 'body-parser';
+import cors from 'cors';
 
 // Routes
 import * as routes from './routes';
@@ -10,6 +11,7 @@ import './db';
 
 const app = express();
 
+app.use(cors());
 app.use(
     bodyParser.json({
         limit: '10kb',
