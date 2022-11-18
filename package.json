@@ -30,7 +30,7 @@
     "uuid": "^3.3.3",
     "webpack": "^4.39.3",
     "webpack-bundle-analyzer": "^3.4.1",
-    "webpack-cli": "^3.3.7",
+    "webpack-cli": "^3.3.12",
     "webpack-merge": "^4.2.2",
     "webpack-node-externals": "^1.7.2"
   },
